@@ -1,2 +1,2 @@
-# intro-discord-bot
+# discord-bot
 basic setup for a customizable discord bot
