@@ -1,7 +1,7 @@
 # discord-bot
 
 ## What is it?
-Basic setup for a customizable Discord bot using DiscordJS. Good resource for developing further: https://gist.github.com/y21/a599ef74c8746341dbcbd32093a69eb8
+Basic setup for a customizable Discord bot using DiscordJS. Good resource for developing further, helped me a ton my first time: https://gist.github.com/y21/a599ef74c8746341dbcbd32093a69eb8
 
 ## How do I use it?
 0. Make a Discord app and bot within the app: https://discordapp.com/developers/applications/. Remember to save your client ID and bot token for later. 
