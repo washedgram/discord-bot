@@ -13,4 +13,4 @@ cd directory you committed this code
 cd discord-bot-master
 node --inspect main.js
 ```
-*by using --inspect you can debug much more easily, running node main.js works fine too
+*by using --inspect you can debug much more easily, running `node main.js` works fine too
