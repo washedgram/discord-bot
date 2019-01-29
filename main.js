@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+const { prefix, token } = require('./config.json');
 const bot = new Discord.Client();
 
 bot.on('ready', () => {
@@ -10,11 +11,11 @@ bot.on('ready', () => {
     bot.user.setActivity('developed by @washedgram')
 });
 
-bot.login('token'); //insert your own token you created here!
+bot.login(token);
 
 bot.on('message', msg => {
 
-    if (msg.content.toLowerCase() === '!embed') {
+    if (msg.content.toLowerCase() === `${prefix}help`) {
         msg.channel.send( { embed: {
             color: 2123412,
             fields: [{
