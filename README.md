@@ -11,4 +11,4 @@ Basic setup for a customizable Discord bot using DiscordJS. Good resource for de
 ```
 tba
 ```
-*by using --inspect you can debug much more easily, running `node main.js` works fine too
+*--inspect will let you debug much more easily, using `node main.js` works fine too
