@@ -1,0 +1,11 @@
+{
+  "name": "discord-bot-master",
+  "version": "1.0.0",
+  "description": "## What is it? Basic setup for a customizable Discord bot using DiscordJS. Good resource for developing further, helped me a ton my first time: https://gist.github.com/y21/a599ef74c8746341dbcbd32093a69eb8",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
