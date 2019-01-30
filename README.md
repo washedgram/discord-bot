@@ -23,9 +23,9 @@ node main.js
 - Your bot will stay online as long as the Terminal / Command Prompt window is left alive.
 
 ## How can I add more functionality?
-Straight from the source: https://discordjs.guide/#/
-Basic features: https://gist.github.com/y21/a599ef74c8746341dbcbd32093a69eb8
-Embed messages: https://anidiots.guide/first-bot/using-embeds-in-messages
-More: https://github.com/discordjs/Commando-guide
+- Straight from the source: https://discordjs.guide/#/
+- Basic features: https://gist.github.com/y21/a599ef74c8746341dbcbd32093a69eb8
+- Embed messages: https://anidiots.guide/first-bot/using-embeds-in-messages
+- More: https://github.com/discordjs/Commando-guide
 
 Going to add more example commands / functions in the future for anyone interested in following this repository. I wasn't able to find a singular resource to help start up this process from square one --> having the actual bot running so I figured this might be somewhat useful for someone else.
