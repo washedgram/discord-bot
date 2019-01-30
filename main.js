@@ -15,7 +15,7 @@ bot.login(token);
 
 bot.on('message', msg => {
 
-    if (msg.content.toLowerCase() === `${prefix}help`) {
+    if (msg.content.toLowerCase() === `${prefix}embed`) {
         msg.channel.send( { embed: {
             color: 2123412,
             fields: [{
@@ -29,7 +29,7 @@ bot.on('message', msg => {
                 }
         }});}
     
-    else if (msg.content.toLowerCase() === '!help') {
+    else if (msg.content.toLowerCase() === `${prefix}help`) {
         msg.channel.send('this is a normal message.\ntype !embed to see an embedded message');
         
     }})
