@@ -22,7 +22,9 @@ node main.js
 - Once `main.js` is running (you should see a message saying 'You are now logged in'), message `!help` in any channel that the bot can access.
 - Your bot will stay online as long as the Terminal / Command Prompt window is left alive.
 - Here's some sample outputs when the bot is functioning correctly:
+
 ![title](https://github.com/washedgram/discord-bot/blob/master/example%20ss.jpg)
+
 
 ## How can I add more functionality?
 - Straight from the source: https://discordjs.guide/#/
