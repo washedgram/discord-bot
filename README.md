@@ -12,7 +12,7 @@ Basic setup for a customizable Discord bot using Discord.js. More resources for 
 ```
 cd __directory you saved this code__
 npm install 
-node main.js
+node main
 ```
 *only run `npm install` the first time you run the code, this installs the necessary packages if you don't have them already.
 *run `node --inspect main.js` for debugging purposes (a Node.js debugging inspector will run alongside your bot)
