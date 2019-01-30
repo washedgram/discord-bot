@@ -26,7 +26,7 @@ bot.on('message', msg => {
               }
             ],
             footer: {
-                icon_url: client.user.avatarURL,
+                icon_url: bot.user.avatarURL,
                 text: 'Discord bot v.1.0 | @washedgram'
                 }
         }});}
