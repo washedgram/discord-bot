@@ -23,7 +23,7 @@ node main.js
 - Your bot will stay online as long as the Terminal / Command Prompt window is left alive.
 - Here's some sample outputs when the bot is functioning correctly:
 
-![title](https://github.com/washedgram/discord-bot/blob/master/example%20ss.jpg)
+  ![title](https://github.com/washedgram/discord-bot/blob/master/example%20ss.jpg)
 
 
 ## How can I add more functionality?
