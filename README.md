@@ -6,7 +6,7 @@ Basic setup for a customizable Discord bot using Discord.js. More resources for 
 ## How do I set it up?
 0. Make a Discord application and bot within the application: https://discordapp.com/developers/applications/. Remember to save your client ID and bot token for later. 
 1. Authorize the bot you just made for use in your server by following this link: https://discordapp.com/oauth2/authorize?client_id=INSERT_CLIENT_ID_HERE&scope=bot. (You'll need administrative access to your server to authorize this) Remember to give your bot permissions to post in the channel(s) where you'd like to see output before actually running the code.
-2. Add your Discord bot's token in the 'token' section of `config.js`.
+2. Add your Discord bot's token in the 'token' section of `config.json`.
 3. Install Node.js / NPM: https://www.npmjs.com/get-npm
 4. Open Terminal/Command Prompt and execute the following code:
 ```
