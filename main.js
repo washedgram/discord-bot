@@ -4,9 +4,11 @@ const bot = new Discord.Client();
 
 bot.on('ready', () => {
     console.log(' ');
-    console.log('----------------------------------------------');
+    console.log('------------------------------------------------------');
+    console.log('Example Discord bot developed by @washedgram');
+    console.log(' ');
     console.log(`You are now logged in as ${bot.user.tag} ...`);
-    console.log('----------------------------------------------');
+    console.log('------------------------------------------------------');
     console.log(' ');
     bot.user.setActivity('developed by @washedgram')
 });
@@ -25,11 +27,11 @@ bot.on('message', msg => {
             ],
             footer: {
                 icon_url: client.user.avatarURL,
-                text: 'grambot v1.0.0'
+                text: 'Discord bot v.1.0 | @washedgram'
                 }
         }});}
     
     else if (msg.content.toLowerCase() === `${prefix}help`) {
-        msg.channel.send('this is a normal message.\ntype !embed to see an embedded message');
+        msg.channel.send('this is a normal message.\nType !embed to see an embedded message');
         
     }})
