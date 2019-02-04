@@ -14,14 +14,13 @@ cd __directory you saved this code__
 npm install 
 node main
 ```
-*only run `npm install` the first time you run the code, this installs the necessary packages if you don't have them already.
-*run `node --inspect main.js` for debugging purposes (a Node.js debugging inspector will run alongside your bot)
+*only run `npm install` the first time you run this code; it installs the necessary packages if you don't have them already.
+*you can run `node --inspect main` instead of `node main` for debugging purposes (a Node.js debugging inspector will run alongside your bot)
 
 ## Just got it set up, what next?
-- The rest takes place inside Discord. 
-- Once `main.js` is running (you should see a message saying 'You are now logged in'), message `!help` in any channel that the bot can access.
-- Your bot will stay online as long as the Terminal / Command Prompt window is left alive.
-- Here's some sample outputs when the bot is functioning correctly:
+- Once `main.js` is running (you should see a message saying 'You are now logged in'), type `!help` in any channel that the bot can access.
+- Your bot will stay online in your server as long as the Terminal / Command Prompt window from which it was launched is left alive.
+- Here's some sample outputs you might see when the bot is online and functioning correctly:
 
   ![title](https://github.com/washedgram/discord-bot/blob/master/example%20ss.jpg)
 
@@ -32,4 +31,4 @@ node main
 - Embed messages: https://anidiots.guide/first-bot/using-embeds-in-messages
 - More: https://github.com/discordjs/Commando-guide
 
-Going to add more example commands / functions in the future for anyone interested in following this repository. I wasn't able to find a singular resource to help start up this process from square one --> having the actual bot running so I figured this might be somewhat useful for someone else.
+I'm going to add more example commands / functions in the future for anyone interested in following this repository. I wasn't able to find a singular resource to help kickstart this process from square one all the way to having the actual bot running, so I figured this might be somewhat useful for someone else.
