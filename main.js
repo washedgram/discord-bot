@@ -8,6 +8,8 @@ bot.on('ready', () => {
     console.log('Example Discord bot developed by @washedgram');
     console.log(' ');
     console.log(`You are now logged in as ${bot.user.tag} ...`);
+    console.log(' ');
+    console.log('Closing this Terminal/CMD window will disconnect the bot from your server.');
     console.log('------------------------------------------------------');
     console.log(' ');
     bot.user.setActivity('developed by @washedgram')
