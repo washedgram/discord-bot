@@ -36,7 +36,7 @@ I'm going to add more example commands / functions in the future for anyone inte
 ## License
 
   ```
-  Copyright (c) 2021 washedgram
+  Copyright (c) 2023 washedgram
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
