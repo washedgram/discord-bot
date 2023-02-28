@@ -1,6 +1,7 @@
-const Discord = require('discord.js');
-const { prefix, token } = require('./config.json');
-const bot = new Discord.Client();
+const { prefix, token } = require('./config.json')
+const { Client, Intents } = require('discord.js');
+const bot = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
+const request = require('request');
 
 bot.on('ready', () => {
     console.log(' ');
